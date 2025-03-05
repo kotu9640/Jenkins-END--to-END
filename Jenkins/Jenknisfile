@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/kotu9640/Jenkins-END--to-END/'
+                git 'https://github.com/kotu9640/Jenkins-END--to-END.git' // Add .git here
             }
         }
         stage('Build') {
